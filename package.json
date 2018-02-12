@@ -4,7 +4,7 @@
   "description": "Loggin Service for Development",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,16 @@
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "nodemon": "^1.14.12"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
