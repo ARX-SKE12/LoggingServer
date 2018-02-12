@@ -12,6 +12,6 @@ const io = SocketIO(server)
 const IPAddress = IP.address()
 const PORT = process.env.LOGGING_PORT
 
-io.on('connection', socket => socket.on('LOG', msg => console.log(msg)))
+io.on('connection', socket => socket.on('log', msg => console.log(msg)))
 
 server.listen(PORT, err => err? console.log(err):console.log(`Logging Server is ready at ${IPAddress}:${PORT}`))
