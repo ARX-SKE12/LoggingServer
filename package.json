@@ -1,0 +1,31 @@
+{
+  "name": "artag-loggingserver",
+  "version": "0.1.0",
+  "description": "Loggin Service for Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARX-SKE12/ARTag-Logging-Server.git"
+  },
+  "keywords": [
+    "logging",
+    "artag",
+    "arcore"
+  ],
+  "author": "ARX-SKE12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARX-SKE12/ARTag-Logging-Server/issues"
+  },
+  "homepage": "https://github.com/ARX-SKE12/ARTag-Logging-Server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
